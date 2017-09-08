@@ -66,10 +66,10 @@ static const unsigned char cmdIOdirection = 0x31; // Sets the IO pins to input (
 #define IRTOY_LEN_VERSION 4
 #define IRTOY_LEN_SAMPLEMODEPROTO 3
 
-#define IRTOY_TIMEOUT_READYFORDATA 1000000
+#define IRTOY_TIMEOUT_READYFORDATA 2000000
 #define IRTOY_TIMEOUT_FLUSH 20000
-#define IRTOY_TIMEOUT_SMODE_ENTER 500000
-#define IRTOY_TIMEOUT_VERSION 500000
+#define IRTOY_TIMEOUT_SMODE_ENTER 1000000
+#define IRTOY_TIMEOUT_VERSION 1500000
 
 // To aid debugging, attach LEDs to the pins below. They will light up
 // under certain circumstances, helping to find out what the driver does.
